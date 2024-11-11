@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Body and Background */
+body {
+    background-color: #afd7dae6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #ff6b6b;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+header .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 1.8em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+/* About Section */
+#about {
+    width: 90%;
+    max-width: 800px;
+    margin: 2em auto;
+    text-align: center;
+    padding: 1.5em;
+    background-color: #ffe5d9;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu Section */
+#menu {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2em auto;
+    text-align: center;
+}
+
+#menu h2 {
+    color: #ff4081;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: #fff0f5;
+    border-radius: 10px;
+    padding: 1em;
+    width: 180px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    background-color: #fcd1d1;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    color: #ff6b6b;
+    margin-top: 0.5em;
+}
+
+.menu-item p {
+    color: #ff4081;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+/* Contact Section */
+#contact {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    padding: 1.5em;
+    background-color: #ffe5d9;
+    margin: 2em auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #ff6b6b;
+}
+
+/* Footer */
+footer {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
